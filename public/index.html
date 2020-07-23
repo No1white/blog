@@ -6,7 +6,30 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+<!--    导入reset-->
+    <link rel="stylesheet" href="./src/assets/style/common/reset.css">
+<!--    导入图标库-->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1700199_qho6jcr7yd.css">
+
+    <link rel="stylesheet" href="/editor.md-master/css/editormd.min.css">
+
+    <style>
+      html{
+        background: #e6e6e6;
+      }
+    </style>
   </head>
+
+  <script src="/editor.md-master/jquery.min.js"></script>
+  <script src="/editor.md-master/lib/flowchart.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/editor.md-master/lib/jquery.flowchart.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/editor.md-master/lib/marked.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/editor.md-master/lib/prettify.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/editor.md-master/lib/underscore.min.js"></script>
+  <script src="/editor.md-master/lib/raphael.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/editor.md-master/lib/sequence-diagram.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <script src="/editor.md-master/editormd.js" type="text/javascript" charset="utf-8"></script>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
@@ -14,4 +37,8 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+
+
+
+
 </html>
