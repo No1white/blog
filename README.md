@@ -1,24 +1,21 @@
-# blog
+# 基本vue开发的个人博客网站
 
-## Project setup
+## 项目部署
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 项目 运行   
 ```
 npm run serve
 ```
+[博客后台服务](https://github.com/No1white/blogServer)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+预览图
+![img3.jpg](https://i.loli.net/2020/07/23/GbcSzk8jtXnOmq6.jpg)
+![img5.jpg](https://i.loli.net/2020/07/23/QpOkzYFixwvmHAP.jpg)
+![img4.jpg](https://i.loli.net/2020/07/23/NRFkQzpu1aDSb3i.jpg)
+![img9.jpg](https://i.loli.net/2020/07/23/pdUq4Hf6IsjwXTN.jpg)
+![img7.jpg](https://i.loli.net/2020/07/23/eQAVmnl3RuIrEJO.jpg)
+![img8.jpg](https://i.loli.net/2020/07/23/1h9ZfG7exlsjLM2.jpg)
+![img6.jpg](https://i.loli.net/2020/07/23/oHYqmw2anUVvJrd.jpg)
